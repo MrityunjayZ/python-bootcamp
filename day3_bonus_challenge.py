@@ -28,6 +28,6 @@ else:
     if user_licence == "Y":
         print("Great! You can start driving once licensed.")
     elif user_licence == "N":
-        print("No problem! We'll help you with car rentals.")
+        print("No problem! We’ll guide you through the licensing process and help with rentals.")
     else:
         print("Invalid input. Please enter Y or N.")
