@@ -67,14 +67,13 @@ Must be 12 years or older
 Must be at least 140 cm tall
 Print eligibility status accordingly.
 
-Height = int(input("Enter your height in cm: "))
+height = int(input("Enter your height in cm: "))
 age = int(input("Enter your age : "))
 
-if  Height >= 140:
-    age >= 12
-    print("you are eligibale to apply")
+if age >= 12 and height >= 140:
+    print("You are eligible to apply.")
 else:
-    print("you are not eligibale")
+    print("You are not eligible.")
 
 # 5. Magic Number Guessing Game
 Set a variable magic_number = 7
