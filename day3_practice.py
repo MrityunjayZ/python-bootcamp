@@ -92,3 +92,57 @@ elif user_guess > x:
     print("Too High")
 else:
     print("Too Low")
+
+# Day 3 Practice Paper
+Q1. Even or Odd Checker with Range
+Ask the user for two numbers (start and end).
+Print all even numbers in that range using a loop.
+
+user_num1 = int(input("Enter the starting number: "))
+user_num2 = int(input("Enter the end number: "))
+for number in range(user_num1, user_num2 + 1):
+  if number % 2 == 0:
+    print(number)
+
+Q2. Simple Calculator
+Ask user to enter two numbers and the operation (+, -, *, /).
+Perform and display the result.
+Handle division by zero with a proper message.
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+operator = input("Enter an operator (+, -, *, /): ")
+
+if operator == "+":
+    print("result is : ", num1 + num2)
+elif operator == "-":
+    print("result is : ", num1 - num2)
+elif operator == "*":
+    print("result is : ", num1 * num2)
+elif operator == "/":
+    if num2 == 0:
+      print("Cannot divide by zero.")
+    else:
+      print("result is : ", num1 / num2)
+
+Q3. Login System (Basic)
+Store a predefined username and password.
+Ask user to enter both.
+Print success message if correct, else allow up to 3 attempts.
+
+counter = 0
+
+while counter < 3:
+    username = input("Enter user name: ")
+    password = input("Enter password: ")
+
+    if username == "admin" and password == "12345":
+        print("Access granted")
+        break  # Stop the loop if login is successful
+    else:
+        print("Access denied")
+        counter += 1  # Increment attempts
+
+if counter == 3:
+    print("Too many attempts, system locked")
+
