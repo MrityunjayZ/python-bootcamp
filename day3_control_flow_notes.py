@@ -34,6 +34,9 @@ Notes: above code asks for the user to enter their age and checks parameters if 
 user_age = int(input("Enter your age: "))
 user_licence = input("Do you have a licence? (Y/N): ").strip().upper()
 
+if user_licence not in ["Y", "N"]:
+    print("Please enter a valid input (Y/N).")
+
 if user_age >= 18 and user_licence == "Y":
     print("You're of age and have a license. You can drive!")
 elif user_age >= 18 and user_licence == "N":
@@ -42,7 +45,7 @@ else:
     print("You're not old enough to drive yet.")
 
 
-Notes:more refined way with accepting lower case and converting it to upper case Y and N 
+Notes:more refined way with accepting lower case and converting it to upper case Y and N , also not covering full errors that may arise in such programs but his prints error if user enters anything aprt from Y or None 
 
 # 4. Nested Ifs & Multiple Conditions
 
