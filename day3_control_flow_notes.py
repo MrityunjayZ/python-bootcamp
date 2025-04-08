@@ -45,7 +45,7 @@ else:
     print("You're not old enough to drive yet.")
 
 
-Notes:more refined way with accepting lower case and converting it to upper case Y and N , also not covering full errors that may arise in such programs but his prints error if user enters anything aprt from Y or None 
+Notes:more refined way with accepting lower case and converting it to upper case Y and N , also not covering full errors that may arise in such programs but his prints error if user enters anything aprt from Y or N 
 
 # 4. Nested Ifs & Multiple Conditions
 
