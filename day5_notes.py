@@ -45,3 +45,5 @@ print(fruits)
 for fruit in fruits:
     print(fruit)
 
+# Note: first it defines what is included in the fruits, then appends or adds mango to it. result is list of fruits including apended mango
+ 
