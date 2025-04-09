@@ -24,6 +24,14 @@ def add(x, y):
 result = add(10, 5)
 print("Sum is:", result)
 
+# eg 2
+
+def add(x, y):
+    return x + y
+
+result = add(3, 7)
+print("Sum is:", result)
+
 # Note: this code defines add(x, y) and adds x and y values
 
 # 4. Default & Keyword Arguments
