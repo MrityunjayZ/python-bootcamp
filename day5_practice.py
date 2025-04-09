@@ -42,6 +42,20 @@ if user_entry in fruits:
 else:
     print("Not found")
 
+# alternate code 
+fruits = ["apple", "banana", "cherry", "mango"]
+
+# Convert all fruits in the list to lowercase
+fruits_lower = [fruit.lower() for fruit in fruits]
+
+# Get user input in lowercase
+user_input = input("Enter a fruit name: ").strip().lower()
+
+if user_input in fruits_lower:
+    print(f"{user_input} is available.")
+else:
+    print(f"{user_input} is not in the list.")
+    
 # Q5: Find the Max
 # Write a function that takes a list of numbers and returns the maximum value.
 
@@ -53,3 +67,10 @@ for i in user_list:
     if i > max_num:
         max_num = i
 print("highest number in list provided is: ",max_num)
+
+# alternate code
+numbers_str = input("Enter a list of numbers separated by spaces: ")
+user_list = [int(num) for num in numbers_str.split()]
+print("Your list is: ",user_list)
+max(user_list)
+print("highest number in list provided is: ",max(user_list))
