@@ -17,3 +17,13 @@ rate = float(input("Annual interest rate (%): "))
 time = float(input("Time in years: "))
 si = (principal * rate * time) / 100
 print("Total Simple interest: ", si)
+
+print('Hello World') #Good way to print name age etc
+print('Hello, What is your name: ')
+myName = input()
+print('Its great to mee you ',myName)
+print('the length of your namre is: ')
+print(len(myName))
+print('What is your age? :')
+myAge = input()
+print("your age will be",+ int(myAge) + 1, ' in a year.')
