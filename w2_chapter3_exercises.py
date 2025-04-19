@@ -1,5 +1,4 @@
-# Warm-Up Challenge: Define and Call Functions
-# # Function to add two numbers
+# Function to add two numbers
 def add(a, b):
     return a + b
 
@@ -15,14 +14,27 @@ def get_valid_number(prompt):
         except ValueError:
             print("That's not a valid number. Please try again.")
 
-# Get inputs for addition
-num1 = get_valid_number('Enter first number: ')
-num2 = get_valid_number('Enter second number: ')
-sum_result = add(num1, num2)
-print(f"✅ Sum of {num1} and {num2} is: {sum_result}")
+# Main loop
+while True:
+    print("\nChoose an operation:")
+    print("1. Add two numbers")
+    print("2. Check if a number is even")
+    print("3. Exit")
+    choice = input("Enter your choice (1/2/3): ")
 
-# Get inputs for is_even checks
-u_num1 = get_valid_number('Enter a number to check if it is even: ')
-u_num2 = get_valid_number('Enter another number to check if it is even: ')
-print(f"🔍🔍 Is {u_num1} even? → {is_even(u_num1)}")
-print(f"🔍🔍 Is {u_num2} even? → {is_even(u_num2)}")
+    if choice == '1':
+        num1 = get_valid_number('Enter first number: ')
+        num2 = get_valid_number('Enter second number: ')
+        sum_result = add(num1, num2)
+        print(f"✅ Sum of {num1} and {num2} is: {sum_result}")
+    elif choice == '2':
+        num = get_valid_number('Enter a number to check if it is even: ')
+        if is_even(num):
+            print(f"🔍 {num} is even.")
+        else:
+            print(f"🔍 {num} is odd.")
+    elif choice == '3':
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please enter 1, 2, or 3.")
