@@ -273,3 +273,60 @@ print("\n🧾 Summary:")
 for cat, count in categories.items():
     print(f"{cat}: {count} ticket(s)")
 print(f"Total Price: ${total_price}")
+
+
+# Drill 1: BMI Checker
+# Write a function bmi_category(weight, height) that:
+# Accepts weight (in kg) and height (in meters)
+# Calculates BMI: BMI = weight / (height ** 2)
+# Returns:
+# "Underweight" if BMI < 18.5
+# "Normal" if 18.5 ≤ BMI < 25
+# "Overweight" if 25 ≤ BMI < 30
+# "Obese" if BMI ≥ 30
+
+def bmi_category(weight, height):
+    bmi = weight / (height ** 2)
+    if bmi < 18.5:
+        return 'Underweight'
+    elif 18.5 <= bmi < 25:
+        return 'Normal'
+    elif 25 <= bmi < 30:
+        return 'Overweight'
+    else:
+        return 'Obese'
+
+weight = float(input('To check BMI, enter your weight in Kgs: '))
+height = float(input('To check BMI, enter your height in Meters: '))
+print("Your BMI category is:", bmi_category(weight, height))
+
+# Drill 2: Password Strength Checker
+# Write a function check_password(password) that:
+# Returns "Weak" if length < 6
+# Returns "Medium" if 6 ≤ length < 10
+# Returns "Strong" if length ≥ 10
+def check_password(password):
+    if len(password) < 6:
+        return 'Weak'
+    elif 6 <= len(password) < 10:
+        return 'Medium'
+    else:
+        return 'Strong'
+
+password = input('Enter your password: ')
+print("Password strength:", check_password(password))
+
+
+# Drill 3: Discount Eligibility Checker
+# Task: Write a function is_eligible_for_discount(age, is_student) 
+# that returns True if the person is under 18 or a student, otherwise returns False.
+def is_eligible_for_discount(age, is_student):
+    # Normalize input to lowercase and strip whitespace
+    if is_student.lower().strip() == 'yes' or age < 18:
+        return True
+    else:
+        return False
+
+age = int(input('Enter your age: '))
+is_student = input('Are you a student? (yes/no): ')
+print("Eligible for discount:", is_eligible_for_discount(age, is_student))
