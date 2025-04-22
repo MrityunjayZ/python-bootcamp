@@ -330,3 +330,109 @@ def is_eligible_for_discount(age, is_student):
 age = int(input('Enter your age: '))
 is_student = input('Are you a student? (yes/no): ')
 print("Eligible for discount:", is_eligible_for_discount(age, is_student))
+
+# From the book # From the book # From the book # From the book # From the book
+# Section 1
+def hello():
+    print('Howdy!')
+    print('Howdy!!!')
+    print('Hello there.')
+hello()
+
+# Parameters (aka Inputs)
+def hello(name):
+    print('Hello, ' + name + '!')
+
+hello('Alice')
+hello('Bob')
+hello('Zebra')
+
+# #Micro-Challenge:
+# Write a function called greet_and_age that:
+# Takes two parameters: name and age
+# Prints: "Hello [name], you are [age] years old!"
+# Example output if you call greet_and_age('Tom', 30):
+
+def greet_and_age(name, age):
+    return f"Hello {name}, you are {age} years old!"
+
+age = int(input('Enter your age: '))
+name = input('Enter your Name: ')
+msg = greet_and_age(name, age)
+print(msg)
+
+# Print v/s Return:
+def add(a, b):
+    print(a + b)
+
+def add_and_return(a, b):
+    return a + b
+
+x = add(5, 3)
+print("x is:", x)
+
+y = add_and_return(5, 3)
+print("y is:", y)
+
+# Local and Global Scope: Local variable: Defined inside a function — only usable inside that function.
+                          #Global variable: Defined outside all functions — usable anywhere in the script.
+
+def my_func():
+    spam = 'I am local'
+    print(spam)
+
+my_func()
+print(spam)  #spam only exists inside my_func() — once the function ends, 
+              #the variable disappears. That’s called local scope.
+
+spam = 'I am global'
+
+def my_func():
+    print(spam)
+
+my_func()
+print(spam) #spam exists outside my_func() — its always available 
+
+spam = 'I am global'
+
+def my_func():
+    spam = 'I am local now' # creates a new locaal value for spam, it doesnt affect the out side value
+    print('Inside function:', spam)
+
+my_func()
+print('Outside function:', spam)
+#Note : you can change the global spam value by using 'global spam' inside the local...eg.
+spam = 'I am global'
+
+def my_func():
+    global spam
+    spam = 'Now I’ve changed!'
+    print('Inside:', spam)
+
+my_func()
+print('Outside:', spam)
+
+# Takes a global variable
+#Modifies it using global
+#Returns the updated value (even though it's already changed globally)
+number = 4
+
+def addval():
+    global number
+    number = number + 1
+    print(number, 'Inside')
+    return number
+
+new_val = addval()
+print(new_val, 'returned')
+print(number, 'outside')
+
+
+
+
+print('Hello', end = '! ') # continues printing in the same line
+print('world')
+print('Hello', end = '! ')
+print('Mrityunjay') 
+print('cats', 'dogs', 'mice')
+print('cats', 'dogs', 'mice', sep = ', ') # separates with a desired separator or sign
