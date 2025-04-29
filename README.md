@@ -1,4 +1,12 @@
 # 🐍 Python Bootcamp Repository
+---
+
+## 📛 Badges
+
+![GitHub repo size](https://img.shields.io/github/repo-size/MrityunjayZ/python-bootcamp)
+![GitHub last commit](https://img.shields.io/github/last-commit/MrityunjayZ/python-bootcamp)
+![GitHub top language](https://img.shields.io/github/languages/top/MrityunjayZ/python-bootcamp)
+![GitHub](https://img.shields.io/github/license/MrityunjayZ/python-bootcamp)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,16 +17,10 @@
 
 
 Welcome to the **Python Bootcamp** by Mrityunjay!  
-This repository contains practical exercises, notes, and projects completed while learning Python programming from scratch, with a structured and progressive learning path.
+## Introduction
+This repository tracks my Python learning journey, where I’m following a structured bootcamp designed to master Python, tackle real-world projects, and build a strong foundation for coding and problem-solving.
 
----
 
-## 📛 Badges
-
-![GitHub repo size](https://img.shields.io/github/repo-size/MrityunjayZ/python-bootcamp)
-![GitHub last commit](https://img.shields.io/github/last-commit/MrityunjayZ/python-bootcamp)
-![GitHub top language](https://img.shields.io/github/languages/top/MrityunjayZ/python-bootcamp)
-![GitHub](https://img.shields.io/github/license/MrityunjayZ/python-bootcamp)
 
 ---
 
@@ -74,7 +76,8 @@ Aligned with **"Automate the Boring Stuff with Python"**:
 | Week 1 | Python basics, flow control | ✅ Completed |
 | Week 2 | Functions, mini-projects | ✅ Completed |
 | Week 3 | Lists, dictionaries, file handling | 🚀 In Progress |
-
+| Completed:| Python exercises, file manipulations, basic algorithms, etc.
+| In Progress:| Currently learning libraries or frameworks, tackling advanced topics, etc.
 ---
 
 ## 🌟 Visual Roadmap
