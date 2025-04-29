@@ -1,5 +1,13 @@
 # 🐍 Python Bootcamp Repository
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
+- [Learning Progress](#learning-progress)
+- [File Structure](#file-structure)
+- [Badges](#badges)
+
+
 Welcome to the **Python Bootcamp** by Mrityunjay!  
 This repository contains practical exercises, notes, and projects completed while learning Python programming from scratch, with a structured and progressive learning path.
 
