@@ -1,0 +1,47 @@
+📩 Fiverr Response Templates
+============================
+
+Short Response Script (Quick Reply)
+-----------------------------------
+
+Hi [Name],  
+Thanks for reaching out! I can help clean and format your Excel/CSV file using Python.  
+Just share your file and what needs fixing (like removing duplicates, formatting, etc.), and I’ll take care of it — usually within a day.
+
+Let me know if you have any specific requests!  
+– Mrityunjay
+
+------------------------------------------------------
+
+Detailed Response Script (When More Info Is Needed)
+---------------------------------------------------
+
+Hi [Name],  
+Thanks for contacting me about your data formatting needs.
+
+To get started, could you please provide the following:
+1. The file(s) you want cleaned/formatted (CSV or Excel)
+2. A short description of what needs to be done (e.g., remove duplicates, fix headers, standardize format, etc.)
+3. Expected output format (CSV, XLSX, JSON)
+4. Deadline or urgency (if any)
+
+Once I review the file and your requirements, I’ll confirm the timeline and any questions I may have.  
+Looking forward to helping you out!
+
+Best regards,  
+Mrityunjay
+
+------------------------------------------------------
+
+Delivery Confirmation Script
+----------------------------
+
+Hi [Name],  
+Your cleaned file is ready! ✅  
+Please review the attached file and let me know if you'd like any revisions (2 free included).  
+I hope it meets your expectations.
+
+If you’re satisfied, feel free to mark the order as complete.  
+Thank you for choosing my service! 🙏  
+– Mrityunjay
+
