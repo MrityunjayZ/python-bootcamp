@@ -3,8 +3,8 @@ user_licence = str(input("Do you have licence Y/N :"))
 
 if user_licence == "Y" and user_age >= 18:  #If age ≥ 18 and license == Y → print "You can drive"
     print("You can drive")
-if user_age >= 18 and license == "N":
+if user_age >= 18 and license == "N":  # If age ≥ 18 and license == N → print "Get a license"
     print("Get a license")
 else:
-    print("You're not old enough")
+    print("You're not old enough")   # Else → print "You're not old enough"
 

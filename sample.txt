@@ -1,0 +1,3 @@
+Hello, World!
+This is a Python file handling example.
+We are learning how to read files.

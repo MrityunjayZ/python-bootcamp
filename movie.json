@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Inception",
+        "year": "2010",
+        "watched": true
+    },
+    {
+        "title": "Interstellar",
+        "year": 2014,
+        "watched": false
+    },
+    {
+        "title": "The Diplomat",
+        "year": 2025,
+        "watched": false
+    },
+    {
+        "title": "Dhoom Dhaam",
+        "year": 2025,
+        "watched": false
+    },
+    {
+        "title": "The Matrix 2",
+        "year": "2001",
+        "watched": false
+    }
+]

@@ -1,0 +1,4 @@
+This is a new file created using Python.
+It contains some text written by our script.
+This is a new line appended to the file.
+Appending doesn't overwrite the existing content.
